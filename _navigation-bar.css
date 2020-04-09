@@ -1,6 +1,7 @@
 /* - Navigation bar - */
 #nav-bar {
     background-color: var(--moonlight-gray-2) !important;
+    box-shadow: none !important;
 }
 /* Icons */
 /* Toolbar buttons */

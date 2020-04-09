@@ -5,15 +5,11 @@ change (#navigator-toolbox) with your top bar (in this case #nav-bar) and use
 */	
 :root[tabsintitlebar][sizemode="maximized"] #navigator-toolbox {
     -moz-appearance: none !important;
+    padding-top: 12px !important;
 }
 /* Fix the FUllscreen changing padding on other bars. */	
 :root[tabsintitlebar][sizemode="maximized"] #titlebar {
     -moz-appearance: none !important;
-}
-
-/* Add top padding in fullscreen */
-:root[tabsintitlebar][sizemode="maximized"] #nav-bar {
-    padding-top: 12px !important;
 }
 
 /* Change bars order */
