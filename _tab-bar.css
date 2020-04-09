@@ -1,0 +1,45 @@
+/* Hide window MAX MIN CLOSE buttons */
+.titlebar-buttonbox-container {
+    display: none;
+}
+
+/* Hide toolbar spacers */
+#titlebar .titlebar-spacer {
+    display: none !important;
+}
+
+#navigator-toolbox {
+    background-color: var(--moonlight-gray-2) !important;
+}
+#TabsToolbar {
+    padding: 4px !important;
+}
+
+.tabbrowser-tab {
+    background: var(--moonlight-gray-4) !important;
+    border: 1px solid var(--moonlight-gray-1) !important;
+    margin: 2px !important;
+    border-radius: 3px !important;
+    color: var(--moonlight-gray-7) !important;
+}
+.tabbrowser-tab::after {
+    display: none !important;
+}
+.tabbrowser-tab[selected] {
+    border-color: var(--moonlight-gray-2) !important;
+    color: var(--moonlight-gray-9) !important;
+}
+.tabbrowser-tab[selected] .tab-background {   
+    background: var(--moonlight-gray-2) !important;    
+}
+
+.tabbrowser-tab:hover {
+    border-color: var(--moonlight-blue) !important;
+    color: var(--moonlight-blue) !important;
+}
+.tabbrowser-tab:hover .tab-background {   
+    background: var(--moonlight-gray-5) !important;    
+}
+.tab-background .tab-line {
+    display: none;
+}

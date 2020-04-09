@@ -1,0 +1,35 @@
+@import '_variables.css';
+
+* {
+    scrollbar-color: var(--moonlight-blue) !important;
+    scrollbar-width: thin !important;
+}
+
+@-moz-document url(about:blank), url(about:newtab), url(about:home) {
+    html:not(#ublock0-epicker),
+    html:not(#ublock0-epicker) body,
+    #newtab-customize-overlay {
+        background: var(--moonlight-gray-2) !important;
+    }
+
+    .search-wrapper input {
+        background-color: var(--moonlight-gray-3) !important;
+        color: var(--moonlight-gray-7) !important;
+        border: none !important;
+        box-shadow: none !important;;
+    }
+
+    .search-wrapper input:focus {
+        color: var(--moonlight-gray-9) !important;
+    }
+
+    .search-wrapper .search-button {
+        fill: var(--moonlight-gray-7) !important;
+    }
+
+    .search-wrapper .search-button:focus,
+    .search-wrapper .search-button:hover {
+        background-color: transparent !important;
+        fill: var(--moonlight-gray-9) !important;
+    }
+}
