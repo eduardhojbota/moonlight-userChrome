@@ -51,7 +51,10 @@
 
 /* Remove burger menu border */
 #PanelUI-button {
-    border: 0 !important;
+    margin-inline-start: 0 !important;
+    padding-inline-start: 0 !important;
+    border: none !important;
+    border-inline-start: none !important;
 }
 /* --- */
 
