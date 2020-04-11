@@ -29,16 +29,16 @@
     border-color: var(--moonlight-gray-2) !important;
     color: var(--moonlight-gray-9) !important;
 }
-.tabbrowser-tab[selected] .tab-background {   
-    background: var(--moonlight-gray-2) !important;    
+.tabbrowser-tab[selected] .tab-background {
+    background: var(--moonlight-gray-2) !important;
 }
 
 .tabbrowser-tab:hover {
     border-color: var(--moonlight-blue) !important;
     color: var(--moonlight-blue) !important;
 }
-.tabbrowser-tab:hover .tab-background {   
-    background: var(--moonlight-gray-5) !important;    
+.tabbrowser-tab:hover .tab-background {
+    background: var(--moonlight-gray-5) !important;
 }
 .tab-background .tab-line {
     display: none;

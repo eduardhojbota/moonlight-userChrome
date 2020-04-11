@@ -1,4 +1,4 @@
-@import '_variables.css';
+@import "_variables.css";
 
 * {
     scrollbar-color: var(--moonlight-blue) !important;
@@ -16,7 +16,7 @@
         background-color: var(--moonlight-gray-3) !important;
         color: var(--moonlight-gray-7) !important;
         border: none !important;
-        box-shadow: none !important;;
+        box-shadow: none !important;
     }
 
     .search-wrapper input:focus {

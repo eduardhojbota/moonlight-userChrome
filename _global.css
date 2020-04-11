@@ -2,12 +2,12 @@
 if the -moz-appearance: none; still gives you fullscreen issues 
 change (#navigator-toolbox) with your top bar (in this case #nav-bar) and use 
 -moz-appearance: -moz-window-titlebar-maximized !important; And remove the padding-top 
-*/	
+*/
 :root[tabsintitlebar][sizemode="maximized"] #navigator-toolbox {
     -moz-appearance: none !important;
     padding-top: 12px !important;
 }
-/* Fix the FUllscreen changing padding on other bars. */	
+/* Fix the FUllscreen changing padding on other bars. */
 :root[tabsintitlebar][sizemode="maximized"] #titlebar {
     -moz-appearance: none !important;
 }
@@ -20,7 +20,7 @@ change (#navigator-toolbox) with your top bar (in this case #nav-bar) and use
     -moz-box-ordinal-group: 2 !important;
 }
 #nav-bar {
-    -moz-box-ordinal-group: 1 !important;	
+    -moz-box-ordinal-group: 1 !important;
 }
 
 /* Change bottom border color */

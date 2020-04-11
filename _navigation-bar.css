@@ -17,8 +17,8 @@
     fill: var(--moonlight-gray-6) !important;
 }
 
-.toolbarbutton-1[open=true] .toolbarbutton-icon,
-.toolbarbutton-1[open=true] .toolbarbutton-badge-stack {
+.toolbarbutton-1[open="true"] .toolbarbutton-icon,
+.toolbarbutton-1[open="true"] .toolbarbutton-badge-stack {
     background: none !important;
 }
 
@@ -43,8 +43,9 @@
     background: var(--moonlight-gray-5) !important;
 }
 
-.toolbarbutton-1.webextension-browser-action[open=true] .toolbarbutton-badge-stack,
-#fxa-toolbar-menu-button[open=true] .toolbarbutton-badge-stack{
+.toolbarbutton-1.webextension-browser-action[open="true"]
+    .toolbarbutton-badge-stack,
+#fxa-toolbar-menu-button[open="true"] .toolbarbutton-badge-stack {
     background: var(--moonlight-blue) !important;
 }
 
@@ -59,7 +60,7 @@
     background-color: var(--moonlight-gray-3) !important;
     border: none !important;
 }
-#urlbar[open=true] #urlbar-background {
+#urlbar[open="true"] #urlbar-background {
     background-color: var(--moonlight-gray-4) !important;
 }
 .urlbarView #urlbar-results {
@@ -75,7 +76,10 @@
     background-color: var(--moonlight-gray-5) !important;
     color: var(--moonlight-gray-10) !important;
 }
-.urlbarView #urlbar-results .urlbarView-row[aria-selected="true"] .urlbarView-row-inner {
+.urlbarView
+    #urlbar-results
+    .urlbarView-row[aria-selected="true"]
+    .urlbarView-row-inner {
     border: 1px solid var(--moonlight-blue) !important;
     background: transparent !important;
     color: var(--moonlight-gray-10) !important;
@@ -108,9 +112,9 @@
     background: none !important;
 }
 
-#tracking-protection-icon-container[open=true],
-#identity-box[open=true],
-#pageActionButton[open=true] {
+#tracking-protection-icon-container[open="true"],
+#identity-box[open="true"],
+#pageActionButton[open="true"] {
     background: none !important;
 }
 
