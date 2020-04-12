@@ -62,6 +62,7 @@
 #urlbar #urlbar-background {
     background-color: var(--moonlight-gray-3) !important;
     border: none !important;
+    border-radius: 3px;
 }
 #urlbar[open="true"] #urlbar-background {
     background-color: var(--moonlight-gray-4) !important;

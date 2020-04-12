@@ -3,3 +3,8 @@
 @import '_tab-bar.css';
 @import '_navigation-bar.css';
 @import '_bookmark-bar.css';
+@import '_find-bar.css';
+
+/* Additional features */
+
+/* @import 'custom/_megabar-disable.css' */

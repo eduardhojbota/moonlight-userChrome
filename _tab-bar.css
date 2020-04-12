@@ -43,3 +43,15 @@
 .tab-background .tab-line {
     display: none;
 }
+.tabbrowser-tab .close-icon {
+    fill: var(--moonlight-gray-7) !important;
+}
+.tabbrowser-tab:hover .close-icon {
+    fill: var(--moonlight-gray-9) !important;
+    fill-opacity: 0 !important;
+}
+#tabs-newtab-button .toolbarbutton-icon {
+    width: calc(2 * var(--toolbarbutton-inner-padding) + 12px) !important;
+    height: calc(2 * var(--toolbarbutton-inner-padding) + 12px) !important;
+    margin-top: 1px !important;
+}

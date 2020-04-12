@@ -1,0 +1,13 @@
+#urlbar[breakout][breakout-extend] {
+    top: 5px !important;
+    left: 0px !important;
+    width: 100% !important;
+}
+
+#urlbar[breakout][breakout-extend] > #urlbar-input-container {
+    height: calc(var(--urlbar-toolbar-height) * 2px) !important;
+    padding-block: calc(
+        (var(--urlbar-toolbar-height) - var(--urlbar-height)) / 2 - 6px
+    ) !important;
+    padding-inline: 0px !important;
+}
