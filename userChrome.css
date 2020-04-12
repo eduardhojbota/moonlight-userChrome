@@ -1,12 +1,12 @@
 @import '_variables.css';
 @import '_global.css';
-@import '_tabBar.css';
-@import '_navigationBar.css';
-@import '_bookmarkBar.css';
-@import '_findBar.css';
-@import '_sidebar.css';
+@import '_tab-bar.css';
+@import '_navigation-bar.css';
+@import '_bookmark-bar.css';
+@import '_find-bar.css';
+@import '_side-bar.css';
 
 /* Additional features */
 
-/* @import 'custom/_megabarDisable.css'; */
-/* @import 'custom/_titlebarControlsEnable.css'; */
+/* @import 'custom/_megabar-disable.css'; */
+/* @import 'custom/_titlebar-controls-enable.css'; */
