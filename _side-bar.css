@@ -8,7 +8,7 @@
 
 
 #sidebar-splitter {
-  border: none !important;
+  border-color: var(--moonlight-gray-1) !important;
 }
 #sidebar-box {
   background-color: var(--moonlight-gray-2) !important;
