@@ -1,3 +1,4 @@
+menuseparator,
 #contentAreaContextMenu menuseparator,
 .bookmarks-actions-menuseparator {
     -moz-appearance: none !important;
@@ -40,16 +41,6 @@ menupopup:not(#BMB_bookmarksPopup),
     border-color: var(--moonlight-gray-1) !important;
 }
 
-panel menulist:hover,
-panel menulist[open] {
-/*     border-color: var(--moonlight-gray-5) !important; */
-}
-
-#editBMPanel_folderMenuList > menupopup > menuitem {
-    color: red !important;
-}
-
-
 panel treechildren::-moz-tree-row(selected),
 panel button:hover,
 menu:hover,
@@ -68,9 +59,6 @@ menuitem[disabled="true"] {
     color: var(--moonlight-gray-5) !important;
 }
 
-menu:not(.subviewbutton) > .menu-right {
-    filter: invert(1);
-}
 
 /* Change icon colors */
 /* Standard folder -- on Toolbar and Menus */
@@ -88,5 +76,5 @@ menu:not(.subviewbutton) > .menu-right {
 #placeContent) treechildren::-moz-tree-image(container), 
 #editBMPanel_folderMenuList > .menulist-label-box > .menulist-icon,
 #editBMPanel_folderMenuList menupopup menuitem {
-  fill: var(--moonlight-blue) !important; /* slightly muted gold */
+    fill: var(--moonlight-blue) !important; /* slightly muted gold */
 }
