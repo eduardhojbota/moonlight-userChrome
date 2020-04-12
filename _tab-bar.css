@@ -20,24 +20,27 @@
     border: 1px solid var(--moonlight-gray-1) !important;
     margin: 2px !important;
     border-radius: 3px !important;
-    color: var(--moonlight-gray-7) !important;
+    color: var(--moonlight-gray-10) !important;
+    transition: background-color, border-color 300ms cubic-bezier(0.645, 0.045, 0.355, 1) !important;
+}
+.tabbrowser-tab .tab-background {
+    transition: background-color, border-color 300ms cubic-bezier(0.645, 0.045, 0.355, 1) !important;
 }
 .tabbrowser-tab::after {
     display: none !important;
 }
-.tabbrowser-tab[selected] {
-    border-color: var(--moonlight-gray-2) !important;
-    color: var(--moonlight-gray-9) !important;
-}
-.tabbrowser-tab[selected] .tab-background {
-    background: var(--moonlight-gray-2) !important;
-}
-
 .tabbrowser-tab:hover {
+    border-color: var(--moonlight-blue) !important;
+    color: var(--moonlight-gray-10) !important;
+}
+.tabbrowser-tab:hover .tab-background {
+    background: var(--moonlight-gray-5) !important;
+}
+.tabbrowser-tab[selected] {
     border-color: var(--moonlight-blue) !important;
     color: var(--moonlight-blue) !important;
 }
-.tabbrowser-tab:hover .tab-background {
+.tabbrowser-tab[selected] .tab-background {
     background: var(--moonlight-gray-5) !important;
 }
 .tab-background .tab-line {
@@ -48,6 +51,7 @@
 }
 .tabbrowser-tab .close-icon {
     fill: var(--moonlight-gray-7) !important;
+    transition: fill 300ms cubic-bezier(0.645, 0.045, 0.355, 1) !important;
 }
 .tabbrowser-tab:hover .close-icon {
     fill: var(--moonlight-gray-9) !important;

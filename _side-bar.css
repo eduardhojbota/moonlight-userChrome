@@ -3,7 +3,7 @@
 #historyTree,
 [lwt-sidebar] {
   background-color: var(--moonlight-gray-2) !important;
-  color: var(--moonlight-gray-7) !important;
+  color: var(--moonlight-gray-10) !important;
 }
 
 
@@ -12,35 +12,58 @@
 }
 #sidebar-box {
   background-color: var(--moonlight-gray-2) !important;
-  color: var(--moonlight-gray-7) !important;
+  color: var(--moonlight-gray-10) !important;
 }
 #sidebar-box #sidebar-header {
   border: none !important;
 }
-#sidebar-box #sidebar-header #sidebar-switcher-target:hover {
-  color: var(--moonlight-gray-9) !important;
+#sidebar-box #sidebar-header #sidebar-switcher-target {
+  transition: color 300ms cubic-bezier(0.645, 0.045, 0.355, 1) !important;
+}
+#sidebar-box #sidebar-header #sidebar-switcher-target:hover,
+#sidebar-box #sidebar-header #sidebar-switcher-target.active {
+  color: var(--moonlight-blue) !important;
+}
+#sidebar-box #sidebar-header #sidebar-close {
+  fill-opacity: 0 !important;
+  color: var(--moonlight-gray-7) !important;
+  transition: color 300ms cubic-bezier(0.645, 0.045, 0.355, 1) !important;
 }
 #sidebar-box #sidebar-header #sidebar-close:hover {
   fill-opacity: 0 !important;
-  color: var(--moonlight-gray-9) !important;
+  color: var(--moonlight-gray-10) !important;
 }
 
 #sidebar-header {
-  border: none !important;
+/*   border: none !important; */
+  border-color: var(--moonlight-gray-1) !important;
 }
 
 
 #sidebar-search-container #search-box {
   -moz-appearance: none !important;
-  background-color: var(--moonlight-gray-3) !important;
-  color: var(--moonlight-gray-7) !important;
+  background-color: var(--moonlight-gray-4) !important;
+  border: 1px solid var(--moonlight-gray-1) !important;
+  color: var(--moonlight-gray-10) !important;
+  border-radius: 3px !important;
+  transition: background-color, border-color 300ms cubic-bezier(0.645, 0.045, 0.355, 1) !important;
 }
-#sidebar-search-container #search-box .textbox-input:focus {
-  color: var(--moonlight-gray-9) !important;
+#sidebar-search-container #search-box:focus-within {
+  border-color: var(--moonlight-blue) !important;
+  background-color: var(--moonlight-gray-3) !important;
 }
 #sidebar-search-container #search-box .textbox-search-clear {
   filter: invert(16%) sepia(23%) saturate(1040%) hue-rotate(193deg) brightness(94%) contrast(86%);
 }
+#sidebar-search-container #viewButton {
+  background-color: var(--moonlight-gray-4) !important;
+  border: 1px solid var(--moonlight-gray-1);
+  border-radius: 3px !important;
+  color: var(--moonlight-gray-10);
+  transition: background-color, border-color 300ms cubic-bezier(0.645, 0.045, 0.355, 1) !important;
+}
 #sidebar-search-container #viewButton:hover {
-  color: var(--moonlight-gray-9) !important;
+  background-color: var(--moonlight-gray-5) !important; 
+  border-color: var(--moonlight-blue) !important;
+  color: var(--moonlight-blue) !important;
 }
