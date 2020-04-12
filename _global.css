@@ -27,3 +27,7 @@ change (#navigator-toolbox) with your top bar (in this case #nav-bar) and use
 #navigator-toolbox {
     border: none !important;
 }
+
+#tabbrowser-tabpanels {
+    background-color: var(--moonlight-gray-2) !important;
+}
