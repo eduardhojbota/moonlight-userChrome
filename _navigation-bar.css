@@ -103,19 +103,23 @@
 #tracking-protection-icon-container,
 #identity-icon,
 #pageActionButton,
-#reader-mode-button {
+#reader-mode-button,
+#blocked-permissions-container {
     border: 0 !important;
     fill: var(--moonlight-gray-7) !important;
+    fill-opacity: 1 !important;
 }
 
 #tracking-protection-icon-container:hover,
 #identity-box:hover,
+#identity-box:hover *,
 #pageActionButton:hover,
-#reader-mode-button:hover {
+#reader-mode-button:hover,
+#blocked-permissions-container:hover {
     fill: var(--moonlight-gray-9) !important;
     background: none !important;
+    fill-opacity: 1 !important;
 }
-
 #tracking-protection-icon-container[open="true"],
 #identity-box[open="true"],
 #pageActionButton[open="true"] {
