@@ -1,0 +1,92 @@
+#contentAreaContextMenu menuseparator,
+.bookmarks-actions-menuseparator {
+    -moz-appearance: none !important;
+    border-color: var(--moonlight-gray-1) !important;
+    border-width: 1px !important;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    margin-top: 2px !important;
+    margin-bottom: 2px !important;
+}
+
+panel richlistbox,
+panel tree,
+panel button,
+panel menulist,
+panel textbox,
+menupopup,
+menu,
+menuitem {
+    -moz-appearance: none !important;
+}
+menulist,
+menuitem,
+menu {
+    min-height: 2.5em;
+}
+panel menulist {
+    border: 1px solid transparent;
+}
+panel richlistbox,
+panel tree,
+panel button,
+panel menulist,
+panel textbox,
+menupopup:not(#BMB_bookmarksPopup),
+#main-menubar > menu > menupopup,
+#context-navigation {
+    color: var(--moonlight-gray-10) !important;
+    background-color: var(--moonlight-gray-2) !important;
+    border-color: var(--moonlight-gray-1) !important;
+}
+
+panel menulist:hover,
+panel menulist[open] {
+/*     border-color: var(--moonlight-gray-5) !important; */
+}
+
+#editBMPanel_folderMenuList > menupopup > menuitem {
+    color: red !important;
+}
+
+
+panel treechildren::-moz-tree-row(selected),
+panel button:hover,
+menu:hover,
+menu[_moz-menuactive],
+menu[open],
+menuitem:hover,
+menuitem[_moz-menuactive] {
+    background-color: var(--moonlight-gray-5) !important;
+    color: var(--moonlight-gray-10) !important;
+}
+
+menu[disabled="true"] {
+    color: var(--moonlight-gray-5) !important;
+}
+menuitem[disabled="true"] {
+    color: var(--moonlight-gray-5) !important;
+}
+
+menu:not(.subviewbutton) > .menu-right {
+    filter: invert(1);
+}
+
+/* Change icon colors */
+/* Standard folder -- on Toolbar and Menus */
+#PlacesToolbarItems toolbarbutton[container="true"] .toolbarbutton-icon,
+:-moz-any(
+#PlacesToolbarItems,
+#PlacesChevronPopup,
+#BMB_bookmarksPopup,
+#bookmarksMenu) menu[container="true"] > .menu-iconic-left > .menu-iconic-icon,
+/* Standard folder -- in Sidebar, Library, Add/Edit Bookmark dialog */
+:-moz-any(
+#bookmarks-view, 
+#editBMPanel_folderTree, 
+#placesList, 
+#placeContent) treechildren::-moz-tree-image(container), 
+#editBMPanel_folderMenuList > .menulist-label-box > .menulist-icon,
+#editBMPanel_folderMenuList menupopup menuitem {
+  fill: var(--moonlight-blue) !important; /* slightly muted gold */
+}

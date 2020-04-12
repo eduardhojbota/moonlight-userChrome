@@ -61,7 +61,7 @@ findbar .findbar-find-next .toolbarbutton-icon {
 
 findbar .findbar-find-previous .toolbarbutton-icon[disabled="true"],
 findbar .findbar-find-next .toolbarbutton-icon[disabled="true"] {
-    fill: var(--moonlight-gray-6) !important;
+    fill: var(--moonlight-gray-5) !important;
     opacity: 1 !important;
 }
 

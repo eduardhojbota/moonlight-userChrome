@@ -67,3 +67,13 @@
   border-color: var(--moonlight-blue) !important;
   color: var(--moonlight-blue) !important;
 }
+
+
+treechildren::-moz-tree-separator{
+-moz-appearance: none !important;
+border: none !important;
+border-bottom: solid 1px var(--moonlight-gray-1) !important;
+background: transparent !important;
+min-height: 0px !important;
+max-height: 0px !important;
+}
