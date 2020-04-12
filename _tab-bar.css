@@ -43,6 +43,9 @@
 .tab-background .tab-line {
     display: none;
 }
+.tabbrowser-tab .tab-text {
+    opacity: 1 !important;
+}
 .tabbrowser-tab .close-icon {
     fill: var(--moonlight-gray-7) !important;
 }

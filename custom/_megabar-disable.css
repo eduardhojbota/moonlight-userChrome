@@ -5,9 +5,7 @@
 }
 
 #urlbar[breakout][breakout-extend] > #urlbar-input-container {
-    height: calc(var(--urlbar-toolbar-height) * 2px) !important;
-    padding-block: calc(
-        (var(--urlbar-toolbar-height) - var(--urlbar-height)) / 2 - 6px
-    ) !important;
-    padding-inline: 0px !important;
+    height: var(--urlbar-height) !important;
+    padding-inline: 0 !important;
+    padding-block: 0 !important;
 }

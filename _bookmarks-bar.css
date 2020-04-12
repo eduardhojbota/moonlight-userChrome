@@ -1,0 +1,13 @@
+#PersonalToolbar {
+    background-color: var(--moonlight-gray-2) !important;
+    padding: 7px !important; 
+}
+#PersonalToolbar .bookmark-item {
+    padding: 6px !important;
+    color: var(--moonlight-gray-7) !important;
+}
+#PersonalToolbar .bookmark-item:hover {
+    background: var(--moonlight-gray-4) !important;
+    color: var(--moonlight-gray-9) !important;
+    border-radius: 3px !important;
+}

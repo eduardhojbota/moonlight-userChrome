@@ -1,0 +1,46 @@
+#sidebar-search-container,
+#bookmarks-view,
+#historyTree,
+[lwt-sidebar] {
+  background-color: var(--moonlight-gray-2) !important;
+  color: var(--moonlight-gray-7) !important;
+}
+
+
+#sidebar-splitter {
+  border: none !important;
+}
+#sidebar-box {
+  background-color: var(--moonlight-gray-2) !important;
+  color: var(--moonlight-gray-7) !important;
+}
+#sidebar-box #sidebar-header {
+  border: none !important;
+}
+#sidebar-box #sidebar-header #sidebar-switcher-target:hover {
+  color: var(--moonlight-gray-9) !important;
+}
+#sidebar-box #sidebar-header #sidebar-close:hover {
+  fill-opacity: 0 !important;
+  color: var(--moonlight-gray-9) !important;
+}
+
+#sidebar-header {
+  border: none !important;
+}
+
+
+#sidebar-search-container #search-box {
+  -moz-appearance: none !important;
+  background-color: var(--moonlight-gray-3) !important;
+  color: var(--moonlight-gray-7) !important;
+}
+#sidebar-search-container #search-box .textbox-input:focus {
+  color: var(--moonlight-gray-9) !important;
+}
+#sidebar-search-container #search-box .textbox-search-clear {
+  filter: invert(16%) sepia(23%) saturate(1040%) hue-rotate(193deg) brightness(94%) contrast(86%);
+}
+#sidebar-search-container #viewButton:hover {
+  color: var(--moonlight-gray-9) !important;
+}
