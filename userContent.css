@@ -34,38 +34,38 @@
 *:not(select) {
     scrollbar-color: var(--moonlight-gray-5) var(--moonlight-gray-2) !important;
     scrollbar-width: thin !important;
-  }
-  ::-webkit-scrollbar,
-  .integrations-select-repos::-webkit-scrollbar {
+}
+::-webkit-scrollbar,
+.integrations-select-repos::-webkit-scrollbar {
     max-height: var(--scrollbar-chrome-size) !important;
     max-width: var(--scrollbar-chrome-size) !important;
-  }
-  ::-webkit-scrollbar,
-  .integrations-select-repos::-webkit-scrollbar,
-  ::-webkit-scrollbar-corner,
-  .integrations-select-repos::-webkit-scrollbar-corner,
-  ::-webkit-scrollbar-track,
-  .integrations-select-repos::-webkit-scrollbar-track,
-  ::-webkit-scrollbar-track-piece,
-  .integrations-select-repos::-webkit-scrollbar-track-piece {
+}
+::-webkit-scrollbar,
+.integrations-select-repos::-webkit-scrollbar,
+::-webkit-scrollbar-corner,
+.integrations-select-repos::-webkit-scrollbar-corner,
+::-webkit-scrollbar-track,
+.integrations-select-repos::-webkit-scrollbar-track,
+::-webkit-scrollbar-track-piece,
+.integrations-select-repos::-webkit-scrollbar-track-piece {
     background: var(--moonlight-gray-2) !important;
-  }
-  ::-webkit-scrollbar:hover,
-  .integrations-select-repos::-webkit-scrollbar:hover,
-  ::-webkit-scrollbar-corner:hover,
-  .integrations-select-repos::-webkit-scrollbar-corner:hover,
-  ::-webkit-scrollbar-track:hover,
-  .integrations-select-repos::-webkit-scrollbar-track:hover,
-  ::-webkit-scrollbar-track-piece:hover,
-  .integrations-select-repos::-webkit-scrollbar-track-piece:hover {
+}
+::-webkit-scrollbar:hover,
+.integrations-select-repos::-webkit-scrollbar:hover,
+::-webkit-scrollbar-corner:hover,
+.integrations-select-repos::-webkit-scrollbar-corner:hover,
+::-webkit-scrollbar-track:hover,
+.integrations-select-repos::-webkit-scrollbar-track:hover,
+::-webkit-scrollbar-track-piece:hover,
+.integrations-select-repos::-webkit-scrollbar-track-piece:hover {
     background: var(--moonlight-gray-4) !important;
-  }
-  ::-webkit-scrollbar-thumb,
-  .integrations-select-repos::-webkit-scrollbar-thumb {
+}
+::-webkit-scrollbar-thumb,
+.integrations-select-repos::-webkit-scrollbar-thumb {
     background: var(--moonlight-gray-5) !important;
     border-radius: var(--scrollbar-chrome-radius) !important;
-  }
-  ::-webkit-scrollbar-thumb:hover,
-  .integrations-select-repos::-webkit-scrollbar-thumb:hover {
+}
+::-webkit-scrollbar-thumb:hover,
+.integrations-select-repos::-webkit-scrollbar-thumb:hover {
     background: var(--moonlight-blue) !important;
-  }
+}
