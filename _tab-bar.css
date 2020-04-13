@@ -37,11 +37,11 @@
     background: var(--moonlight-gray-5) !important;
 }
 .tabbrowser-tab[selected] {
-    border-color: var(--moonlight-blue) !important;
-    color: var(--moonlight-blue) !important;
+    border-color: var(--moonlight-gray-2) !important;
+    color: var(--moonlight-gray-10) !important;
 }
 .tabbrowser-tab[selected] .tab-background {
-    background: var(--moonlight-gray-5) !important;
+    background: var(--moonlight-gray-2) !important;
 }
 .tab-background .tab-line {
     display: none;
