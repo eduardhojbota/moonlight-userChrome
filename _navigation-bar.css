@@ -1,9 +1,8 @@
-/* - Navigation bar - */
 #nav-bar {
     background-color: var(--moonlight-gray-2) !important;
     box-shadow: none !important;
 }
-/* Icons */
+
 /* Toolbar buttons */
 .toolbarbutton-1 {
     fill: var(--moonlight-gray-7) !important;
@@ -14,12 +13,16 @@
     fill: var(--moonlight-gray-9) !important;
 }
 
+.toolbarbutton-1[open="true"] {
+    fill: var(--moonlight-gray-9) !important;
+}
+
 .toolbarbutton-1[disabled] {
     fill: var(--moonlight-gray-5) !important;
 }
 
-.toolbarbutton-1[open="true"] .toolbarbutton-icon,
-.toolbarbutton-1[open="true"] .toolbarbutton-badge-stack {
+.toolbarbutton-1 .toolbarbutton-icon,
+.toolbarbutton-1 .toolbarbutton-badge-stack {
     background: none !important;
 }
 
@@ -30,35 +33,28 @@
     border: none !important;
 }
 
-/* Diable hover background */
+/* Web extensions custom styling */
 
-.toolbarbutton-1:hover .toolbarbutton-icon,
-.toolbarbutton-1:hover .toolbarbutton-badge-stack {
-    background: none !important;
-}
-
-/* Add hover for web extensions */
-
-.toolbarbutton-1.webextension-browser-action .toolbarbutton-badge-stack,
-#fxa-toolbar-menu-button .toolbarbutton-badge-stack {
+#nav-bar-customization-target > .toolbarbutton-1.webextension-browser-action .toolbarbutton-badge-stack,
+#nav-bar-customization-target > #fxa-toolbar-menu-button .toolbarbutton-badge-stack {
     background: var(--moonlight-gray-4) !important;
     border: 1px solid var(--moonlight-gray-1);
-}
-
-.toolbarbutton-1.webextension-browser-action:hover .toolbarbutton-badge-stack,
-#fxa-toolbar-menu-button:hover .toolbarbutton-badge-stack {
-    background: var(--moonlight-gray-5) !important;
-    border-color: var(--moonlight-blue);
     transition: background-color, border-color 300ms cubic-bezier(0.645, 0.045, 0.355, 1) !important;
 }
 
-.toolbarbutton-1.webextension-browser-action[open="true"]
+#nav-bar-customization-target > .toolbarbutton-1.webextension-browser-action:hover .toolbarbutton-badge-stack,
+#nav-bar-customization-target > #fxa-toolbar-menu-button:hover .toolbarbutton-badge-stack {
+    background: var(--moonlight-gray-5) !important;
+    border-color: var(--moonlight-blue);
+}
+
+#nav-bar-customization-target > .toolbarbutton-1.webextension-browser-action[open="true"]
     .toolbarbutton-badge-stack,
 #fxa-toolbar-menu-button[open="true"] .toolbarbutton-badge-stack {
     background: var(--moonlight-blue) !important;
 }
 
-/* Remove burger menu border */
+/* Remove burger menu spacing */
 #PanelUI-button {
     margin-inline-start: 0 !important;
     padding-inline-start: 0 !important;
@@ -109,33 +105,42 @@
     color: var(--moonlight-blue) !important;
 }
 
-/* Icons */
+/* Url bar Icons */
 
-#tracking-protection-icon-container,
-#identity-icon,
-#pageActionButton,
-#reader-mode-button,
-#blocked-permissions-container {
+#urlbar-container box,
+#urlbar-container image{
+    background-color: transparent !important;
+}
+
+#urlbar-container [class*="icon"],
+#urlbar-container [id*="icon"]
+{
     border: 0 !important;
     fill: var(--moonlight-gray-7) !important;
     fill-opacity: 1 !important;
     transition: fill 300ms cubic-bezier(0.645, 0.045, 0.355, 1) !important;
 }
 
-#tracking-protection-icon-container:hover,
-#identity-box:hover,
-#identity-box:hover *,
-#pageActionButton:hover,
-#reader-mode-button:hover,
-#blocked-permissions-container:hover {
+#urlbar-container [class*="icon"]:hover,
+#urlbar-container [id*="icon"]:hover,
+#urlbar-container [open="true"] [class*="icon"],
+#urlbar-container [open="true"] [id*="icon"],
+#urlbar-container [class*="icon"][open="true"],
+#urlbar-container [id*="icon"][open="true"]
+{
     fill: var(--moonlight-gray-9) !important;
-    background: none !important;
     fill-opacity: 1 !important;
 }
-#tracking-protection-icon-container[open="true"],
-#identity-box[open="true"],
-#pageActionButton[open="true"] {
-    background: none !important;
+
+#urlbar-zoom-button {
+    border-color: var(--moonlight-gray-1) !important;
+    background-color: var(--moonlight-gray-4) !important;
+    color: var(--moonlight-gray-10) !important;
+    transition: background-color, border-color 300ms cubic-bezier(0.645, 0.045, 0.355, 1) !important;
+}
+#urlbar-zoom-button:hover {
+    background-color: var(--moonlight-gray-5) !important;
+    border-color: var(--moonlight-blue) !important;
 }
 
 #pageActionSeparator {

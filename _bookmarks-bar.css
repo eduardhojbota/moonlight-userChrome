@@ -10,7 +10,9 @@
     transition: background-color, border-color 300ms cubic-bezier(0.645, 0.045, 0.355, 1) !important;
     border-radius: 3px !important;
 }
-#PersonalToolbar toolbarbutton.bookmark-item:hover {
+#PersonalToolbar toolbarbutton.bookmark-item:hover,
+#PersonalToolbar toolbarbutton.bookmark-item[open=true]
+{
     background: var(--moonlight-gray-5) !important;
     border-color: var(--moonlight-blue) !important;
 }

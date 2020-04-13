@@ -1,5 +1,7 @@
+/* Separator */
 menuseparator,
 #contentAreaContextMenu menuseparator,
+toolbarseparator,
 .bookmarks-actions-menuseparator {
     -moz-appearance: none !important;
     border-color: var(--moonlight-gray-1) !important;
@@ -9,7 +11,7 @@ menuseparator,
     margin-top: 2px !important;
     margin-bottom: 2px !important;
 }
-
+/* Reset form elements appereance */
 panel richlistbox,
 panel tree,
 panel button,
@@ -20,14 +22,19 @@ menu,
 menuitem {
     -moz-appearance: none !important;
 }
+
+/* Spacing between menu items */
 menulist,
 menuitem,
 menu {
     min-height: 2.5em;
 }
+
+/* ? */
 panel menulist {
     border: 1px solid transparent;
 }
+/* Menus */
 panel richlistbox,
 panel tree,
 panel button,
@@ -53,14 +60,58 @@ menuitem[_moz-menuactive] {
 }
 
 menu[disabled="true"] {
-    color: var(--moonlight-gray-5) !important;
+    color: var(--moonlight-gray-6) !important;
 }
 menuitem[disabled="true"] {
-    color: var(--moonlight-gray-5) !important;
+    color: var(--moonlight-gray-6) !important;
 }
 
+/* Popup panels (more tools... , open menu) */
+panel panelview {
+    color: var(--moonlight-gray-10) !important;
+    background-color: var(--moonlight-gray-2)  !important;
+}
+.panel-arrowcontainer .panel-arrowbox .panel-arrow {
+    fill: var(--moonlight-gray-1) !important;
+}
+.panel-arrowcontainer .panel-arrowcontent {
+    border-color: var(--moonlight-gray-1) !important;
+}
 
-/* Change icon colors */
+/* Context navigation buttons (right-click page) */
+#context-navigation menuitem {
+    color: var(--moonlight-gray-7) !important;
+    background: none !important;
+    transition: color 300ms cubic-bezier(0.645, 0.045, 0.355, 1) !important;
+}
+#context-navigation menuitem:hover {
+    color: var(--moonlight-gray-9) !important;
+}
+/* Customize button in more extensions */
+#overflowMenu-customize-button {
+    background-color: var(--moonlight-gray-4) !important;
+    border: 1px solid var(--moonlight-gray-1) !important;
+    border-radius: 3px !important;
+    margin: 4px !important;
+    color: var(--moonlight-gray-10) !important;
+    transition: background-color, border-color 300ms cubic-bezier(0.645, 0.045, 0.355, 1) !important;
+}
+#overflowMenu-customize-button:hover {
+    background-color: var(--moonlight-gray-5) !important;
+    border: 1px solid var(--moonlight-blue) !important;
+}
+#appMenu-zoomReset-button {
+    border-color: var(--moonlight-gray-1) !important;
+    background-color: var(--moonlight-gray-4) !important;
+    color: var(--moonlight-gray-10) !important;
+    transition: background-color, border-color 300ms cubic-bezier(0.645, 0.045, 0.355, 1) !important;
+}
+#appMenu-zoomReset-button:hover {
+    background-color: var(--moonlight-gray-5) !important;
+    border-color: var(--moonlight-blue) !important;
+}
+
+/* Change bookmark icon colors */
 /* Standard folder -- on Toolbar and Menus */
 #PlacesToolbarItems toolbarbutton[container="true"] .toolbarbutton-icon,
 :-moz-any(
@@ -76,5 +127,7 @@ menuitem[disabled="true"] {
 #placeContent) treechildren::-moz-tree-image(container), 
 #editBMPanel_folderMenuList > .menulist-label-box > .menulist-icon,
 #editBMPanel_folderMenuList menupopup menuitem {
-    fill: var(--moonlight-blue) !important; /* slightly muted gold */
+    fill: var(--moonlight-blue) !important;
 }
+
+
