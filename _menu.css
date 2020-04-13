@@ -35,6 +35,7 @@ panel menulist {
     border: 1px solid transparent;
 }
 /* Menus */
+toolbarbutton,
 panel richlistbox,
 panel tree,
 panel button,
@@ -47,7 +48,7 @@ menupopup:not(#BMB_bookmarksPopup),
     background-color: var(--moonlight-gray-2) !important;
     border-color: var(--moonlight-gray-1) !important;
 }
-
+toolbarbutton:hover,
 panel treechildren::-moz-tree-row(selected),
 panel button:hover,
 menu:hover,
@@ -69,6 +70,9 @@ menuitem[disabled="true"] {
 /* Popup panels (more tools... , open menu) */
 panel panelview {
     color: var(--moonlight-gray-10) !important;
+    background-color: var(--moonlight-gray-2)  !important;
+}
+.panel-arrowcontent {
     background-color: var(--moonlight-gray-2)  !important;
 }
 .panel-arrowcontainer .panel-arrowbox .panel-arrow {
