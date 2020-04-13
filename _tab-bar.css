@@ -15,7 +15,7 @@
     padding: 4px !important;
 }
 
-.tabbrowser-tab {
+.tabbrowser-tab .tab-stack {
     background: var(--moonlight-gray-4) !important;
     border: 1px solid var(--moonlight-gray-1) !important;
     margin: 2px !important;
@@ -24,19 +24,20 @@
     transition: background-color, border-color 300ms cubic-bezier(0.645, 0.045, 0.355, 1) !important;
 }
 .tabbrowser-tab .tab-background {
+    border: none !important;
     transition: background-color, border-color 300ms cubic-bezier(0.645, 0.045, 0.355, 1) !important;
 }
 .tabbrowser-tab::after {
     display: none !important;
 }
-.tabbrowser-tab:hover {
+.tabbrowser-tab:hover .tab-stack{
     border-color: var(--moonlight-blue) !important;
     color: var(--moonlight-gray-10) !important;
 }
 .tabbrowser-tab:hover .tab-background {
     background: var(--moonlight-gray-5) !important;
 }
-.tabbrowser-tab[selected] {
+.tabbrowser-tab[selected] .tab-stack {
     border-color: var(--moonlight-gray-2) !important;
     color: var(--moonlight-gray-10) !important;
 }
