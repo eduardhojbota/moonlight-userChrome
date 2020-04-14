@@ -65,7 +65,7 @@ menu[disabled="true"] {
 menuitem[disabled="true"] {
     color: var(--moonlight-gray-6) !important;
 }
-label,
+
 menulist > menupopup > menuitem,
 menulist > menupopup > menucaption,
 menulist > menupopup > menu {
@@ -79,6 +79,9 @@ menulist > menupopup > menu {
     list-style-image: url("./icons/expand.png") !important;
 }
 
+#editBookmarkPanel label {
+    color: var(--moonlight-gray-10) !important;
+}
 #editBookmarkPanel input {
     -moz-appearance: none;
     background-color: var(--moonlight-gray-4) !important;
