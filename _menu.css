@@ -57,6 +57,7 @@ menu[open],
 menuitem:hover,
 menuitem[_moz-menuactive] {
     background-color: var(--moonlight-gray-5) !important;
+    color: var(--moonlight-gray-10) !important;
 }
 
 menu[disabled="true"] {
