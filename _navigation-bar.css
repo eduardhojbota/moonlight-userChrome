@@ -108,7 +108,8 @@
 /* Url bar Icons */
 
 #urlbar-container box,
-#urlbar-container image{
+#urlbar-container image,
+.urlbar-icon-wrapper {
     background-color: transparent !important;
 }
 

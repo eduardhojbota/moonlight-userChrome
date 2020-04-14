@@ -57,7 +57,6 @@ menu[open],
 menuitem:hover,
 menuitem[_moz-menuactive] {
     background-color: var(--moonlight-gray-5) !important;
-    color: var(--moonlight-gray-10) !important;
 }
 
 menu[disabled="true"] {
@@ -66,6 +65,33 @@ menu[disabled="true"] {
 menuitem[disabled="true"] {
     color: var(--moonlight-gray-6) !important;
 }
+label,
+menulist > menupopup > menuitem,
+menulist > menupopup > menucaption,
+menulist > menupopup > menu {
+  color: var(--moonlight-gray-10) !important;
+}
+
+.expander-up {
+    list-style-image: url("./icons/collapse.png") !important;
+}
+.expander-down {
+    list-style-image: url("./icons/expand.png") !important;
+}
+
+#editBookmarkPanel input {
+    -moz-appearance: none;
+    background-color: var(--moonlight-gray-4) !important;
+    color: var(--moonlight-gray-10) !important;
+    border: 1px solid var(--moonlight-gray-1) !important;
+    border-radius: 3px !important;
+    transition: background-color, border-color 300ms cubic-bezier(0.645, 0.045, 0.355, 1) !important;
+}
+#editBookmarkPanel input:focus {
+    background-color: var(--moonlight-gray-3) !important;
+    border-color: var(--moonlight-blue) !important;
+}
+
 
 /* Popup panels (more tools... , open menu) */
 panel panelview {
