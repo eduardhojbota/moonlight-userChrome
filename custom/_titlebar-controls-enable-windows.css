@@ -1,0 +1,37 @@
+/* Show MIN MAX CLOSE buttons - for windows*/
+.titlebar-buttonbox-container {
+    display: block !important;
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 40px;
+}
+
+:root[tabsintitlebar][sizemode="maximized"] .titlebar-buttonbox-container {
+    top: 12px;
+}
+
+:root[tabsintitlebar] .titlebar-buttonbox {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#nav-bar {
+    padding-right: 138px;
+}
+
+.titlebar-buttonbox-container .titlebar-button .toolbarbutton-icon {
+    stroke: var(--moonlight-gray-7);
+}
+
+.titlebar-buttonbox-container .titlebar-button:hover {
+    background: none !important;
+}
+
+.titlebar-buttonbox-container .titlebar-button:hover .toolbarbutton-icon {
+    stroke: var(--moonlight-gray-9);
+}
+
+.titlebar-buttonbox-container .titlebar-button.titlebar-close:hover .toolbarbutton-icon {
+    stroke: var(--moonlight-dark-red);
+}

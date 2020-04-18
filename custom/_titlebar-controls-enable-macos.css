@@ -1,0 +1,24 @@
+/* Show CLOSE MIN MAX buttons - for macOS*/
+.titlebar-buttonbox-container {
+    display: block !important;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 40px;
+}
+
+:root[tabsintitlebar][sizemode="maximized"] .titlebar-buttonbox-container {
+    top: 12px;
+}
+
+:root[tabsintitlebar] .titlebar-buttonbox {
+    top: 12px;
+}
+
+#nav-bar {
+    padding-left: 76px;
+}
+
+:root[inFullscreen] #nav-bar {
+    padding-left: 0;
+}
