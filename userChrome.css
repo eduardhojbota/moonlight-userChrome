@@ -9,4 +9,5 @@
 /* Additional features */
 
 /* @import 'custom/_megabar-disable.css'; */
-/* @import 'custom/_titlebar-controls-enable.css'; */
+/* @import 'custom/_titlebar-controls-enable-windows.css'; */
+/* @import 'custom/_titlebar-controls-enable-macos.css'; */
