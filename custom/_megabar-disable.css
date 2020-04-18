@@ -1,5 +1,5 @@
 #urlbar[breakout][breakout-extend] {
-    top: 5px !important;
+    top: calc((var(--urlbar-toolbar-height) - var(--urlbar-height)) / 2) !important;
     left: 0px !important;
     width: 100% !important;
 }
