@@ -164,4 +164,22 @@ panel panelview {
     fill: var(--moonlight-blue) !important;
 }
 
-
+/* Arrow customization in the bookmark folder while overflowing */
+.menupopup-scrollbutton {
+    -moz-appearance: none !important;
+    background-color: var(--moonlight-gray-3) !important;
+    width: 100%;
+}
+.menupopup-scrollbutton:hover {
+    background-color: var(--moonlight-gray-5) !important;
+}
+.scrollbutton-up:not([orient="horizontal"]),
+.scrollbutton-up:not([orient="horizontal"]) .toolbarbutton-icon {
+    -moz-appearance: none !important;
+    list-style-image: url("./icons/collapse.png") !important;
+}
+.scrollbutton-down:not([orient="horizontal"]),
+.scrollbutton-down:not([orient="horizontal"]) .toolbarbutton-icon {
+    -moz-appearance: none !important;
+    list-style-image: url("./icons/expand.png") !important;
+}
