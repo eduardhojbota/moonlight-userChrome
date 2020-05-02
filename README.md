@@ -50,4 +50,4 @@ For macOS:
 
 If you love my work and would like to support my future endeavors I would gladly drink a coffee with you :)
 
-[![Buy me a coffee button](https://github.com/eduardhojbota/moonlight-userChrome/raw/master/buymeacoffee.ong)](https://www.buymeacoffee.com/eduardh)
+[![Buy me a coffee button](https://github.com/eduardhojbota/moonlight-userChrome/raw/master/buymeacoffee.png)](https://www.buymeacoffee.com/eduardh)
