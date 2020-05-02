@@ -50,4 +50,4 @@ For macOS:
 
 If you love my work and would like to support my future endeavors I would gladly drink a coffee with you :)
 
-<a href="https://www.buymeacoffee.com/eduardh" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-blue.png" alt="Buy Me A Coffee" style="height: 32px !important;width: 136px !important;" ></a>
+[![Buy me a coffee button](https://github.com/eduardhojbota/moonlight-userChrome/raw/master/buymeacoffee.ong)](https://www.buymeacoffee.com/eduardh)
