@@ -1,14 +1,53 @@
-# Moonlight 🌌 userChrome 
-A dark userstyle for Firefox inspired by [moonlight-vscode-theme](https://github.com/atomiks/moonlight-vscode-theme) and [github-moonlight](https://github.com/Brettm12345/github-moonlight) 
+# Moonlight 🌌 userChrome
 
-<img src="https://github.com/eduardhojbota/moonlight-userChrome/raw/master/preview.jpg" alt="Preview">
+A dark userstyle for Firefox inspired by [moonlight-vscode-theme](https://github.com/atomiks/moonlight-vscode-theme) and [github-moonlight](https://github.com/Brettm12345/github-moonlight)
+
+![Firefox screenshot with the moonlight theme activated](https://github.com/eduardhojbota/moonlight-userChrome/raw/master/preview.jpg)
 
 ## Installation
+
 1. Open your currently active profile folder
+    1. In the URL bar type: `about:profiles`
+    2. Look for the profile which has the "Default Profile" property set to true
+    3. Click on "Open Folder" button belonging to the "Root Directory" property
 2. Create a new folder named chrome
-3. Copy the files in the chrome folder
-4. If you're running Firefox 69+ make sure to enable 'toolkit.legacyUserProfileCustomizations.stylesheets' in about:config 
+3.  - Clone the theme directly into the chrome folder. If you choose this method you will be able to update the theme by pulling the latest files.  
+      OR
+    - Download and extract the files in the chrome folder
+4. If you're running Firefox 69+
+    1. In the URL bar type: `about:config`
+    2. You will receive a warning to proceed with caution. Accept the Risk and Continue.
+    3. In the "Search preference name" input field type `toolkit.legacyUserProfileCustomizations.stylesheets`
+    4. Set it to true by double clicking the false value
+5. Restart the browser
 
-## Additional Features
+## Custom styling
 
-Additional Features are disabled by default but they can be enabled by uncommenting them in userChrome.css.
+The theme comes **as is** but it can be extended using CSS files provided in the custom folder. Further extensions should be included in the same folder to keep the main theme consistent.
+To **enable** custom styles, copy and paste the following `@import` statements at the end of the `userChrome.css` file.
+
+### Re-enable title bar controls (MIN-MAX-CLOSE buttons)
+
+For Windows:
+
+```css
+@import "custom/_titlebar-controls-enable-windows.css";
+```
+
+For macOS:
+
+```css
+@import "custom/_titlebar-controls-enable-macos.css";
+```
+
+### Disable megabar behavior
+
+```css
+@import "custom/_megabar-disable.css";
+```
+
+## Support
+
+If you love my work and would like to support my future endeavors I would gladly drink a coffee with you :)
+
+<style>.bmc-button{display: inline-block; font-family: "Lato"; padding: 3px; text-decoration: none; background-color: #191a2a; border: 1px solid #131421; border-radius: 3px; color: #c8d3f5; transition: background-color, border-color 300ms cubic-bezier(0.645, 0.045, 0.355, 1);}.bmc-button:hover{background-color: #2f334d; border-color: #82aaff; color: #c8d3f5; text-decoration: none; }.bmc-button img{height: 24px; vertical-align: middle !important; margin-right: 3px;}</style> <link href="https://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext" rel="stylesheet"/><a class="bmc-button" target="_blank" href="https://www.buymeacoffee.com/eduardh" ><img src="https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg" alt="Buy me a coffee"/><span>Buy me a coffee</span ></a>
