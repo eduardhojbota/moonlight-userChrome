@@ -50,4 +50,4 @@ For macOS:
 
 If you love my work and would like to support my future endeavors I would gladly drink a coffee with you :)
 
-<style>.bmc-button{display: inline-block; font-family: "Lato"; padding: 3px; text-decoration: none; background-color: #191a2a; border: 1px solid #131421; border-radius: 3px; color: #c8d3f5; transition: background-color, border-color 300ms cubic-bezier(0.645, 0.045, 0.355, 1);}.bmc-button:hover{background-color: #2f334d; border-color: #82aaff; color: #c8d3f5; text-decoration: none; }.bmc-button img{height: 24px; vertical-align: middle !important; margin-right: 3px;}</style> <link href="https://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext" rel="stylesheet"/><a class="bmc-button" target="_blank" href="https://www.buymeacoffee.com/eduardh" ><img src="https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg" alt="Buy me a coffee"/><span>Buy me a coffee</span ></a>
+<a href="https://www.buymeacoffee.com/eduardh" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-blue.png" alt="Buy Me A Coffee" style="height: 32px !important;width: 136px !important;" ></a>
