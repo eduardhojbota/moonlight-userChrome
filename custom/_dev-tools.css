@@ -1,0 +1,46 @@
+/*
+ * Variables for devtools are available at: https://developer.mozilla.org/en-US/docs/Tools/DevToolsColors
+ */
+
+:root.theme-dark {
+    /*
+     * Chrome colors
+     */
+    --theme-tab-toolbar-background: var(--moonlight-gray-3) !important;
+    --theme-toolbar-background: var(--moonlight-gray-3) !important;
+    --theme-selection-background: var(--moonlight-gray-5) !important;
+    --theme-selection-color: #fff !important;
+    --theme-splitter-color: var(--moonlight-gray-1) !important;
+    --theme-comment: var(--moonlight-gray-10) !important;
+
+    /*
+     * Content Colors
+     */
+    --theme-body-background: var(--moonlight-gray-2) !important;
+    --theme-sidebar-background: var(--moonlight-gray-3) !important;
+    --theme-contrast-background: var(--moonlight-gray-3) !important;
+
+    /*
+     * Text Colors
+     */
+    --theme-body-color: var(--moonlight-gray-10-alt) !important;
+    --theme-body-color-alt: var(--moonlight-desaturated-gray) !important;
+    --theme-content-color1: #fff !important;
+    --theme-content-color2: var(--moonlight-gray-10) !important;
+    --theme-content-color3: var(--moonlight-gray-6) !important;
+
+
+    /*
+     * Highlight Colors
+     */
+    --theme-highlight-blue: var(--moonlight-blue) !important;
+    --theme-highlight-purple: var(--moonlight-purple) !important;
+    --theme-highlight-pink: var(--moonlight-pink) !important;
+    --theme-highlight-red: var(--moonlight-light-red) !important;
+    --theme-highlight-orange: var(--moonlight-dark-orange) !important;
+    --theme-highlight-lightorange: var(--moonlight-orange) !important;
+    --theme-highlight-green: var(--moonlight-teal) !important;
+    --theme-highlight-bluegrey: var(--moonlight-gray-6) !important;
+    --theme-highlight-yellow: var(--moonlight-yellow) !important;
+}
+
