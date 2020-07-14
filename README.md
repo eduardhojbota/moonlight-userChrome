@@ -46,6 +46,14 @@ For macOS:
 @import "custom/_megabar-disable.css";
 ```
 
+### Add Developer Tools styling
+
+Set theme to dark in Firefox Developer Tools [settings](https://developer.mozilla.org/en-US/docs/Tools/Settings). Then, add the following line to `userContent.css`:
+
+```
+@import "custom/_dev-tools.css";
+```
+
 ## Support
 
 If you love my work and would like to support my future endeavors I would gladly drink a coffee with you :)
