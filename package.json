@@ -1,0 +1,15 @@
+{
+  "name": "moonlight-userchrome",
+  "version": "1.0.0",
+  "description": "A dark userstyle for Firefox inspired by [moonlight-vscode-theme](https://github.com/atomiks/moonlight-vscode-theme) and [github-moonlight](https://github.com/Brettm12345/github-moonlight)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eduardhojbota/moonlight-userChrome.git"
+  },
+  "author": "Eduard Hojbota",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eduardhojbota/moonlight-userChrome/issues"
+  },
+  "homepage": "https://github.com/eduardhojbota/moonlight-userChrome#readme"
+}
