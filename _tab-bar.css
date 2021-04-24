@@ -58,7 +58,7 @@
 }
 .tabbrowser-tab:hover .close-icon {
     fill: var(--moonlight-gray-9) !important;
-    fill-opacity: 0 !important;
+    background-color: none !important;
 }
 #tabs-newtab-button .toolbarbutton-icon {
     width: calc(2 * var(--toolbarbutton-inner-padding) + 12px) !important;
