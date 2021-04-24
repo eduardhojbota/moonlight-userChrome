@@ -7,8 +7,8 @@ assignees: ''
 
 ---
 
-## Disclaimer 
-Moonlight is built on top of the default Firefox theme. In order to avoid breaking changes, customisation is kept to a minimum and to the core. As such, extensions are not supported out of the box but if you'd like to customize your favorite extension feel free to drop a file into the custom folder and submit a PR. Thank you for your understanding.
+<!-- Disclaimer  -->
+<!-- Moonlight is built on top of the default Firefox theme. In order to avoid breaking changes, customisation is kept to a minimum and to the core. As such, extensions are not supported out of the box but if you'd like to customize your favorite extension feel free to drop a file into the custom folder and submit a PR. Thank you for your understanding. -->
 
 **I'm submitting a ...**  (check one with "x")
 ```
@@ -37,4 +37,3 @@ If the current behavior is a bug please provide the *STEPS TO REPRODUCE* and scr
 * **Moonlight version:** X.X.X
 * **Operating system:** [all | Windows | MacOS | Linux]
 * **Firefox version:** Firefox XX
-* **Extensions:** [?]
