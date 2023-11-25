@@ -30,6 +30,7 @@ menu {
     min-height: 2.5em;
 }
 
+
 /* ? */
 panel menulist {
     border: 1px solid transparent;
@@ -72,7 +73,10 @@ menulist > menupopup > menucaption,
 menulist > menupopup > menu {
   color: var(--moonlight-gray-10) !important;
 }
-
+.menupopup-arrowscrollbox{
+    background-color: var(--moonlight-gray-2) !important;
+    
+}
 .expander-up {
     list-style-image: url("./icons/collapse.png") !important;
 }

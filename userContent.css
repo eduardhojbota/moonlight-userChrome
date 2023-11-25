@@ -1,5 +1,35 @@
 @import "_variables.css";
 
+@-moz-document url(about:preferences) {
+
+/* Settings page background */
+*.main-content {
+    background: var(--moonlight-gray-1) !important;
+}
+*.navigation {
+    background: var(--moonlight-gray-1) !important;
+}
+*.sticky-container {
+    background: var(--moonlight-gray-1) !important;
+}
+
+}
+
+@-moz-document url(about:addons) {
+    #full {
+        background: var(--moonlight-gray-1) !important;
+    }
+
+    *.main-heading {
+        background: var(--moonlight-gray-1) !important;
+    }
+    .main-search {
+        background: var(--moonlight-gray-1) !important;
+    }
+    .sticky-container{
+        background: var(--moonlight-gray-1) !important;
+    }
+}
 @-moz-document url(about:blank), url(about:newtab), url(about:home) {
     html:not(#ublock0-epicker),
     html:not(#ublock0-epicker) body,
@@ -28,6 +58,10 @@
         fill: var(--moonlight-gray-9) !important;
     }
 }
+
+
+
+
 
 /* Scrollbar */
 
